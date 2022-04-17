@@ -172,7 +172,7 @@
 }
 
 
-.swal2-footer a{
+.swal2-footer a {
     background-color: #ef4b6c;
     color: white;
     text-align: center;
@@ -185,6 +185,7 @@
     padding: 15px 20px;
     font-size: 14px;
 }
+
 .swal2-confirm {
     font-family: 'Montserrat', sans-serif;
 }
@@ -295,6 +296,7 @@
         -webkit-animation: slide-in-blurred-top 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
         animation: slide-in-blurred-top 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
     }
+
     .navbar div {
         margin: 30px auto;
     }
@@ -317,14 +319,16 @@
 }
 
 @media (max-width:600px) {
+
     /* HHmmmm */
     /* .NavHero{
    
     } */
-    .fix{
-margin-bottom: 30px;
+    .fix {
+        margin-bottom: 30px;
     }
-    .displaynonemobile{
+
+    .displaynonemobile {
         display: none;
     }
 
