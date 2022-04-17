@@ -9,6 +9,7 @@ Check the live site on [Netlify](https://comforting-mooncake-3bf5ed.netlify.app/
 * Vanilla CSS
 * Sweet Alert
 * react-intersection-observer (scrolltrigger animations)
+* Adobe XD(remade most illustrations & backgrounds)
 
 im currently looking for a job so let me know if u r interested (linkedin engagement is a good investment too)
 
