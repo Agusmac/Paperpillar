@@ -1,23 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Swal from 'sweetalert2'
+
+import './styles/App.css';
+import "./styles/NavHero.css"
+import "./styles/Content.css"
+import "./styles/Content2.css"
+import "./styles/Footer.css"
+import "./styles/Animations.css"
+import NavHero from './NavHero';
+import Content from './Content';
+import Content2 from './Content2';
+import Footer from './Footer';
+
 
 function App() {
+
+  const [footView, setFootView] = useState(false)
+
+  function alert() {
+    Swal.fire({
+      title: 'Continue to Linkedin?',
+      icon: 'info',
+      confirmButtonText: 'Maybe later...',
+      footer: `<a href="https://www.linkedin.com/in/agustin-mac-rae-3348ab216/"
+       target="_blank" rel="noreferrer"> <div className="btn textcenter whiteT"
+       style={{ backgroundColor: "#ef4b6c" }}>LETS TALK!</div></a>`,
+    })
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavHero footView={footView} alert={alert} />
+      <div className='backshadow'>
+        <Content />
+        <Content2 />
+      </div>
+      <Footer setFootView={setFootView} alert={alert} />
     </div>
   );
 }
