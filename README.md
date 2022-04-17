@@ -1,5 +1,6 @@
 # Paperpillar Clone
 
+![Travel Advisor](https://raw.githubusercontent.com/Agusmac/Paperpillar/main/public/images/expImg.png)
 Check the live site on [Netlify](https://comforting-mooncake-3bf5ed.netlify.app/)
 
 ## Tech used
