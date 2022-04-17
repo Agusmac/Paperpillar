@@ -7,10 +7,10 @@ import "./styles/Content.css"
 import "./styles/Content2.css"
 import "./styles/Footer.css"
 import "./styles/Animations.css"
-import NavHero from './NavHero';
-import Content from './Content';
-import Content2 from './Content2';
-import Footer from './Footer';
+import NavHero from './Components/NavHero';
+import Content from './Components/Content';
+import Content2 from './Components/Content2';
+import Footer from './Components/Footer';
 
 
 function App() {
