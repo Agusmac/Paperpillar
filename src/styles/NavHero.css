@@ -317,6 +317,11 @@
 }
 
 @media (max-width:600px) {
+    /* HHmmmm */
+    .NavHero{
+        min-height: 110%;
+    }
+    /* hmmmm */
     .hero3 img {
         max-height: 200px;
         position: relative;
