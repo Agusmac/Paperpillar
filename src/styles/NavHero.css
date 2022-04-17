@@ -318,10 +318,10 @@
 
 @media (max-width:600px) {
     /* HHmmmm */
-    .NavHero{
-        min-height: 130vh;
-    }
-    /* hmmmm */
+    /* .NavHero{
+   
+    } */
+
     .hero3 img {
         max-height: 200px;
         position: relative;
