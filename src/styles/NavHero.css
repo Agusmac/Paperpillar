@@ -321,6 +321,9 @@
     /* .NavHero{
    
     } */
+    .fix{
+margin-bottom: 30px;
+    }
     .displaynonemobile{
         display: none;
     }
