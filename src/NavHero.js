@@ -48,7 +48,7 @@ function double(){
                          
                         </div>
                     </div>
-                    <div className='flex JflexEnd hero3 '><img src="/images/hero-guy-3.png" alt="hero3" /></div>
+                    <div className='flex JflexEnd hero3 displaynonemobile'><img src="/images/hero-guy-3.png" alt="hero3" /></div>
                 </div>
                 <div className='actual-hero'><img className="hero-with-foot" src="images/Hero-with-foot2.png" alt="" /></div>
             </div>

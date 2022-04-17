@@ -321,6 +321,9 @@
     /* .NavHero{
    
     } */
+    .displaynonemobile{
+        display: none;
+    }
 
     .hero3 img {
         max-height: 200px;
