@@ -1,9 +1,10 @@
-.footer{
+.footer {
     margin-top: 150px;
     min-height: 900px;
     background: no-repeat top/cover url("/public/images/Web 1920 – 1.png");
 }
-.footButtons div{
+
+.footButtons div {
     background-color: white;
     color: #541b96;
     transition: 0.8s;
@@ -15,11 +16,15 @@
     font-size: 30px;
     margin: 0 20px;
 }
-.footButtons div:hover{
-    background-color:#541b96 ;
+
+.footButtons div:hover {
+    background-color: #541b96;
     color: white;
 }
-.footer h2{
-    font-size: 10vw;
-    margin: 0 5%;
+
+@media (max-width:600px) {
+    .footer h2 {
+        font-size: 10vw;
+        margin: 0 5%;
+    }
 }
